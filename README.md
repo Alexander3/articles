@@ -1,30 +1,10 @@
-# Narzędzia do debugowania w środowiskach Windows i Linux #
-Wykład dla KNI [KERNEL](kernel.fis.agh.edu.pl) (WFiS AGH) <img src="/res/logo.jpg" alt="Kernel Logo" style="width: 200px;"/>
-## Linux ##
-### GDB ###
-Debugger na którym opiera się wiele graficznych narzędzi. Np. Clion udostępnia konsolę GDB. Poza podstawowymi funkcjonalnościami (*break,
-run, continue*) pozwala na wyświetlenie asemblera (*disass <function name>*, *layout asm*).
+# Wykłady Dla KNI Kernel:
 
-[Podstawowe komendy GDB](http://www.ftj.agh.edu.pl/~Bold/content.php?name=cppstart)
-
-[Ciekawy przykład użycia GDB do generowania shellcode](http://jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html)
-
-### Strace ###
-Umożliwia zobaczenie co dzieje się pomiędzy programem a kernelem Linuxa. Możemy zobaczyć wywołania systemowe (ang. syscalls) jakich użył program z argumentami i wartością zwracaną. Strace może selektywnie śledzić: 
-
-- operacjie na plikach (*open,write,stat,chmod,unlink*)
-- procesy (*fork, wait, exec*)
-- sieć
-- sygnały (*SIGSEGV,SIGINT,SIGTERM,SIGKILL*)
-
-Przykład: ([src](/src/strace_example.c))
-
-![](/res/strace.png)
-
-Możemy też sprawdzić z jakimi argumentami został wywołany program.
-Używając strace możemy zobaczyć co tak naprawdę oznacza gwiazdka – krótko mówiąc, zamieniła się w listę wszystkich plików w danym katalogu, a plik o nazwie *–rf* spowodował włączenie opcji *recursive* oraz *force* w *rm*.
-
-![](/res/rm3.png)
+- [Python](https://github.com/Alexander3/articles/blob/master/Python/First%20steps.md "Python - 1")
+- [Narzędzia do debugowania](https://github.com/Alexander3/articles/blob/master/Narz%C4%99dzia%20do%20debugowania/Debugging.md "Narzędzia do debugowania")
 
 
-Więcej tego typu rzeczy na "[Unix wildcards gone wild](http://www.defensecode.com/public/DefenseCode_Unix_WildCards_Gone_Wild.txt)"
+
+# See Also
+- [Learning Curves](https://github.com/Dobiasd/articles/blob/master/programming_language_learning_curves.md "Dobiasd's Learning Curves")
+- [From goto to std::transform](https://github.com/Dobiasd/articles/blob/master/from_goto_to_std-transform.md "Dobiasd's From goto to std::transform")
