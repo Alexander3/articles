@@ -9,7 +9,7 @@ dir(a)          # Wypisuje metody obiektu
 help(a.append)  # Wyświetla dokumentację
 ```
 Pozwala to dowiedzieć się co można zrobić np. z listą.
-Rzeczy w stylu `__nazwa__` przeważnie nas nie interesują, są to wewnętrzne mechanizmy.
+Rzeczy zaczynające się od `__` (np. `__add__`) przeważnie nas nie interesują, są to wewnętrzne mechanizmy.
 
 ## Struktury Danych
 ```python
