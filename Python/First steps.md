@@ -19,7 +19,7 @@ napis = "Nie martw sie o 'pojedyncze' cudzyslowy."
 logiczne = True
 logiczne = False
 ```
-### Rutowanie
+### Rzutowanie
 W pythonie nie można zrobić `print("abc" + 5)` ponieważ obiekty nie są tego samego typu. Dlatego też operator dodawania nie ma sensu. Musimy powiedzieć jawnie, że chcemy traktować `5` jako `string`. W tym celu używamy rzutowania `print("abc" + str(5))`.
 
 Inny przykład: `print(int("10") + 5)`, wypisze 15.
