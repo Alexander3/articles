@@ -1,8 +1,6 @@
 # Wykłady Dla KNI Kernel:
 
-- Python
-  - [Lab1](https://github.com/Alexander3/articles/blob/master/Python/First%20steps.md "Python - 1")
-  - [Lab2](https://github.com/Alexander3/articles/blob/master/Python/Lab%202.md "Python - 2")
+- [Python](https://github.com/disconnect3d/kni-kernel-python-course "Kurs Pythona 3") przeniesiony do disconnect3d
 - [Narzędzia do debugowania](https://github.com/Alexander3/articles/blob/master/Narz%C4%99dzia%20do%20debugowania/Debugging.md "Narzędzia do debugowania")
 
 
