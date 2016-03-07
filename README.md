@@ -1,5 +1,4 @@
-# Wykłady Dla KNI Kernel:
-
+# Lectures for students organization KNI Kernel (Polish):
 - [Python](https://github.com/disconnect3d/kni-kernel-python-course "Kurs Pythona 3") przeniesiony do disconnect3d
 - [Narzędzia do debugowania](https://github.com/Alexander3/articles/blob/master/Narz%C4%99dzia%20do%20debugowania/Debugging.md "Narzędzia do debugowania")
 
