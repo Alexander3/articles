@@ -4,6 +4,7 @@
 
 
 
-# See Also
+## See Also (Articles worth reading)
 - [Learning Curves](https://github.com/Dobiasd/articles/blob/master/programming_language_learning_curves.md "Dobiasd's Learning Curves")
 - [From goto to std::transform](https://github.com/Dobiasd/articles/blob/master/from_goto_to_std-transform.md "Dobiasd's From goto to std::transform")
+- [Anti-If: The missing patterns](http://code.joejag.com/2016/anti-if-the-missing-patterns.html "How to prevent too many ifs")
