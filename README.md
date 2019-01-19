@@ -3,7 +3,7 @@
 - [Narzędzia do debugowania (PL)](https://github.com/Alexander3/articles/blob/master/Narz%C4%99dzia%20do%20debugowania/Debugging.md "Narzędzia do debugowania")
 
 # My atricles/posts:
-- [Cellular automata visualisation]((https://sunscrapers.com/blog/data-visualization-in-python-cellular-automata) (Matplotlib)
+- [Cellular automata visualisation](https://sunscrapers.com/blog/data-visualization-in-python-cellular-automata) (Matplotlib)
 
 
 ## See Also (Articles worth reading)
